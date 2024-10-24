@@ -1,0 +1,38 @@
+.main {
+  background-color: rgba(227, 82, 208, 0.674);
+  padding: 2vh 2vw;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  width: 90vw;
+  max-height: 50vh;
+  overflow-x: hidden;
+}
+
+.card_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 1vw;
+  border-radius: 20px;
+}
+
+.delete_button {
+  background: linear-gradient(270deg, #000000, #0e5e41, #000000, #0c6432, #064818);
+  color: #fff;
+  border-radius: 20px;
+  padding: 1vh 1vw;
+  border:none;
+}
+
+.submit {
+  background: #da23a9;
+  border-radius: 20px;
+  border: 2px solid #9b1477f9;
+  color: #fff;
+  font-size: inherit;
+  text-transform: uppercase;
+}
+

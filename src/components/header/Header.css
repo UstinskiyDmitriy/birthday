@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #ff06bd80;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 2vh 4vw;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  background: #f1f1f15a;
+  padding: 1vw;
+  border-radius: 20px;
+}
+
+.logo img {
+  width: 40px
+}
+
+.basket {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  font-size: 18px;
+  position: relative;
+
+}
+
+.basket_counter {
+  color: rgb(202, 247, 5);
+  font-weight: 800;
+  
+}
+
+.basket_button {
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid #da23a977;
+  font-size: inherit;
+  text-transform: uppercase;
+  
+}
+
+.modal {
+  position: absolute;
+  top: 7vh;
+  right: 0px;
+  z-index: 10;
+}

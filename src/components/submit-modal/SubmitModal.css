@@ -1,0 +1,53 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  width: 80%;
+  max-width: 80vw;
+  height: 20vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(219, 245, 104);
+  color: rgb(255, 5, 172);
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-message {
+  font-size: 28px;
+  word-wrap: break-word;
+}
+
+.sun_container {
+  position: absolute;
+  bottom: 120px;
+  left:0;
+  z-index: 0;
+}

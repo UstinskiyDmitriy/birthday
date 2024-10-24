@@ -1,0 +1,75 @@
+.sun-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sun {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center,
+    #fff 0%,
+    #ffef9f 20%,
+    #ffd857 40%,
+    #ffbe2e 60%,
+    #ffa500 80%
+  );
+  position: relative;
+  animation: sunPulse 2s ease-in-out infinite alternate;
+  box-shadow: 0 0 50px #ffa50066;
+}
+
+.rays {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: rayRotate 40s linear infinite;
+}
+
+.ray {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  height: 60px;
+  width: 4px;
+  background: linear-gradient(to top, transparent, #ffa500);
+  transform-origin: bottom center;
+}
+
+/* Создаем 12 лучей */
+.ray:nth-child(1) { transform: rotate(0deg) translateY(-50%); }
+.ray:nth-child(2) { transform: rotate(30deg) translateY(-50%); }
+.ray:nth-child(3) { transform: rotate(60deg) translateY(-50%); }
+.ray:nth-child(4) { transform: rotate(90deg) translateY(-50%); }
+.ray:nth-child(5) { transform: rotate(120deg) translateY(-50%); }
+.ray:nth-child(6) { transform: rotate(150deg) translateY(-50%); }
+.ray:nth-child(7) { transform: rotate(180deg) translateY(-50%); }
+.ray:nth-child(8) { transform: rotate(210deg) translateY(-50%); }
+.ray:nth-child(9) { transform: rotate(240deg) translateY(-50%); }
+.ray:nth-child(10) { transform: rotate(270deg) translateY(-50%); }
+.ray:nth-child(11) { transform: rotate(300deg) translateY(-50%); }
+.ray:nth-child(12) { transform: rotate(330deg) translateY(-50%); }
+
+@keyframes sunPulse {
+  from {
+    transform: scale(1);
+    box-shadow: 0 0 50px #ffa50066;
+  }
+  to {
+    transform: scale(1.1);
+    box-shadow: 0 0 70px #ffa50088;
+  }
+}
+
+@keyframes rayRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
