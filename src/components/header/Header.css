@@ -7,7 +7,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 2vh 2vw;
+  padding: 2vh 3vw;
   z-index: 100;
 }
 
@@ -42,7 +42,7 @@
   background: transparent;
   border-radius: 20px;
   border: 2px solid #a33285c4;
-  font-size: inherit;
+  font-size: 14px;
   text-transform: uppercase;
   color: #fff;
 }
