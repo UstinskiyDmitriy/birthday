@@ -3,11 +3,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: #ff06bd80;
+  background: #ff06bdee;
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 2vh 4vw;
+  padding: 2vh 2vw;
   z-index: 100;
 }
 
@@ -41,10 +41,10 @@
 .basket_button {
   background: transparent;
   border-radius: 20px;
-  border: 2px solid #da23a977;
+  border: 2px solid #a33285c4;
   font-size: inherit;
   text-transform: uppercase;
-  
+  color: #fff;
 }
 
 .modal {
