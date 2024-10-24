@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   max-width: 100vw;
-  font-family: "Playwrite GB S", cursive;
+  font-family: "Libre Baskerville", serif;
   font-optical-sizing: auto;
   scroll-behavior: smooth;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,p,ul,ol,li {
-  font-family: "Playwrite GB S", cursive;
+  font-family: "Libre Baskerville", serif;
   font-optical-sizing: auto;
   margin:0;
 }
